@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['uppermanipulator_161',['upperManipulator',['../_robot_config_8hpp.html#a834d2e3993c084096964fb33c1eacded',1,'RobotConfig.hpp']]],
-  ['uppermanipulatorport_162',['upperManipulatorPort',['../_robot_config_8hpp.html#afee3d7c66253a18c6a77fc897a894b94',1,'RobotConfig.cpp']]],
-  ['uppermanipulatortempbar_163',['upperManipulatorTempBar',['../_initialize_8hpp.html#a6adeda1c997b3d09d2467498d58c67fc',1,'Initialize.cpp']]],
-  ['uppermanipulatortemplabel_164',['upperManipulatorTempLabel',['../_initialize_8hpp.html#a46bdeb2eaf16383d1f269194c6429759',1,'Initialize.cpp']]]
+  ['tabview_166',['tabview',['../_initialize_8hpp.html#a49fcf5ba22d797a9f23f8b7907c722a1',1,'Initialize.cpp']]],
+  ['turn_167',['turn',['../class_drive.html#ae8e6754c46daf28e63383d7a08173328',1,'Drive::turn(double angle, double maxVoltage, int direction)'],['../class_drive.html#a96a08156b119b31c696fc939d24e1d3a',1,'Drive::turn(double angle, double maxVoltage, int direction, int maxWait)']]],
+  ['turnk_168',['turnK',['../class_drive.html#a92daa00e4d42e0dc735ec2603dad34df',1,'Drive']]],
+  ['turnkd_169',['turnKd',['../class_drive.html#a4a86bd15ede1e9c48bd5b6a232b98d67',1,'Drive']]],
+  ['turnki_170',['turnKi',['../class_drive.html#a1e2afed6673d9af86dd8df34a336b3d6',1,'Drive']]],
+  ['turnscale_171',['turnScale',['../class_drive.html#aa07a55c8b16b5fdcce721177af7e6485',1,'Drive']]],
+  ['turnthreshold_172',['turnThreshold',['../class_drive.html#a5982fbe6927af9bd0e238aa97995d3e2',1,'Drive']]]
 ];

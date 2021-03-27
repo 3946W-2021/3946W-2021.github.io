@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['set_5ftext_212',['set_text',['../class_custom_controller.html#a823d1b9d395d1343f71b2cb7393a651d',1,'CustomController']]],
-  ['setauton1_213',['setAuton1',['../_lvgl_funcs_8hpp.html#a64d31691753bca72a70b26289bff9b8d',1,'LvglFuncs.cpp']]],
-  ['setauton2_214',['setAuton2',['../_lvgl_funcs_8hpp.html#a6e749c83938f1cc8c775f759b479727d',1,'LvglFuncs.cpp']]],
-  ['setauton3_215',['setAuton3',['../_lvgl_funcs_8hpp.html#ab681e60810c6ca4a9134f8a2abe335e4',1,'LvglFuncs.cpp']]],
-  ['setauton4_216',['setAuton4',['../_lvgl_funcs_8hpp.html#a51c93b3d445cde8f5845f5a0f16fd89a',1,'LvglFuncs.cpp']]],
-  ['setautonblue_217',['setAutonBlue',['../_lvgl_funcs_8hpp.html#a6e795c47836e8a6326a8033493d9e441',1,'LvglFuncs.cpp']]],
-  ['setautonred_218',['setAutonRed',['../_lvgl_funcs_8hpp.html#ad648a30a6bc4588795b36396ee35de37',1,'LvglFuncs.cpp']]]
+  ['poop_227',['poop',['../class_rollers.html#a557df5cad984e164a4e1d0e5759ccb45',1,'Rollers::poop(int vel)'],['../class_rollers.html#a08e5d85ccc7522002d01ea2084866aca',1,'Rollers::poop(int vel, int time, bool blocking)']]],
+  ['pressed_228',['pressed',['../class_custom_controller.html#a86d8ce4c8a17b9f23351949b69c47298',1,'CustomController']]],
+  ['print_229',['print',['../_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf',1,'Globals.cpp']]],
+  ['printspecial_230',['printSpecial',['../_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac',1,'Globals.cpp']]]
 ];

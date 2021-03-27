@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pressed_208',['pressed',['../class_custom_controller.html#a86d8ce4c8a17b9f23351949b69c47298',1,'CustomController']]],
-  ['print_209',['print',['../_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf',1,'Globals.cpp']]],
-  ['printspecial_210',['printSpecial',['../_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac',1,'Globals.cpp']]]
+  ['intake_222',['intake',['../class_rollers.html#ae99afb4ed5f61e05be81de0bb57deabd',1,'Rollers::intake(int vel)'],['../class_rollers.html#a5d7b2f0b9e31ee81b765d2dc13ef5b26',1,'Rollers::intake(int vel, int time, bool blocking)']]],
+  ['is_5fconnected_223',['is_connected',['../class_custom_controller.html#aab2d68f80e5e31a6cdf51d669d843afa',1,'CustomController']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['yellowinnerstyle_166',['yellowInnerStyle',['../_initialize_8hpp.html#a4c919c3304ef6f78ae8931629e5fa309',1,'Initialize.cpp']]]
+  ['waitformotors_177',['waitForMotors',['../class_drive.html#ab7881558255b229add63b7d0f1eec60a',1,'Drive::waitForMotors()'],['../class_drive.html#a75c1b8852e8a9d5bfb6ead2ad6635768',1,'Drive::waitForMotors(int maxWait)']]]
 ];

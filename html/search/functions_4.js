@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['olddrive_205',['oldDrive',['../class_drive.html#a50f5cd909385b1105371056a1735ebe9',1,'Drive::oldDrive(double dist, double speed)'],['../class_drive.html#a345f6f1368acc0235db16df26aea5c1b',1,'Drive::oldDrive(double dist, double speed, int maxWait)']]],
-  ['oldstrafe_206',['oldStrafe',['../class_drive.html#acc884da820099e526a625e74a037e7ef',1,'Drive::oldStrafe(double dist, double speed, int direction)'],['../class_drive.html#aebb882a91135e17b8b33cf9af6aef9af',1,'Drive::oldStrafe(double dist, double speed, int direction, int maxWait)']]],
-  ['oldturn_207',['oldTurn',['../class_drive.html#af36215890798d9767b0ce442168ed893',1,'Drive::oldTurn(double angle, double speed, int direction)'],['../class_drive.html#a33cd8dc0f542267657866fdcbc03fbbe',1,'Drive::oldTurn(double angle, double speed, int direction, int maxWait)']]]
+  ['get_5fbattery_5fcapacity_216',['get_battery_capacity',['../class_custom_controller.html#a8225639c07f80494db26ba6414d9fd77',1,'CustomController']]],
+  ['get_5fbattery_5flevel_217',['get_battery_level',['../class_custom_controller.html#a251b70f58bfb68daeb9b6a7946bb62c5',1,'CustomController']]],
+  ['getleftx_218',['getLeftX',['../class_custom_controller.html#a62f2de6fc662ef02f39cd0cb96787bcc',1,'CustomController']]],
+  ['getlefty_219',['getLeftY',['../class_custom_controller.html#a0743c996b8b1ca706329e88b96fc7b43',1,'CustomController']]],
+  ['getrightx_220',['getRightX',['../class_custom_controller.html#a460dd11d4a8e72e6f4e0e5aa25d676d0',1,'CustomController']]],
+  ['getrighty_221',['getRightY',['../class_custom_controller.html#a32d9167e2b38ab10e8ca39cc11bd6f0b',1,'CustomController']]]
 ];

@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['set_5ftext_144',['set_text',['../class_custom_controller.html#a823d1b9d395d1343f71b2cb7393a651d',1,'CustomController']]],
-  ['setauton1_145',['setAuton1',['../_lvgl_funcs_8hpp.html#a64d31691753bca72a70b26289bff9b8d',1,'LvglFuncs.cpp']]],
-  ['setauton2_146',['setAuton2',['../_lvgl_funcs_8hpp.html#a6e749c83938f1cc8c775f759b479727d',1,'LvglFuncs.cpp']]],
-  ['setauton3_147',['setAuton3',['../_lvgl_funcs_8hpp.html#ab681e60810c6ca4a9134f8a2abe335e4',1,'LvglFuncs.cpp']]],
-  ['setauton4_148',['setAuton4',['../_lvgl_funcs_8hpp.html#a51c93b3d445cde8f5845f5a0f16fd89a',1,'LvglFuncs.cpp']]],
-  ['setautonblue_149',['setAutonBlue',['../_lvgl_funcs_8hpp.html#a6e795c47836e8a6326a8033493d9e441',1,'LvglFuncs.cpp']]],
-  ['setautonred_150',['setAutonRed',['../_lvgl_funcs_8hpp.html#ad648a30a6bc4588795b36396ee35de37',1,'LvglFuncs.cpp']]],
-  ['slavekd_151',['slaveKd',['../class_drive.html#aeec90361057e6d57fc82886df16d99ad',1,'Drive']]],
-  ['slaveki_152',['slaveKi',['../class_drive.html#a270d2e64d788002820c91d3efc7bc281',1,'Drive']]],
-  ['slavekp_153',['slaveKp',['../class_drive.html#a6c154631c8111d6cae2115c70bd2001c',1,'Drive']]]
+  ['red_5fgearset_139',['RED_GEARSET',['../_constants_8hpp.html#ae1b463f68da37b738fd71c8fd3bf3121',1,'Constants.hpp']]],
+  ['redinnerstyle_140',['redInnerStyle',['../_initialize_8hpp.html#a6ba183b8caf4a34befeca9dfb986d700',1,'Initialize.cpp']]],
+  ['right_141',['RIGHT',['../_constants_8hpp.html#a088fe0153a918af361dc8f4e775d020e',1,'Constants.hpp']]],
+  ['rightencoder_142',['rightEncoder',['../class_drive.html#a96b025c213e1958d81d9cefae6700661',1,'Drive::rightEncoder()'],['../_robot_config_8hpp.html#a05632888314d1132f3885775ed6457d7',1,'rightEncoder():&#160;RobotConfig.hpp']]],
+  ['rightintake_143',['rightIntake',['../class_rollers.html#aa8d46211234ab767783b58b918c41bd1',1,'Rollers::rightIntake()'],['../_robot_config_8hpp.html#a7e11e782f5e922180b0e03cc8e7b4f51',1,'rightIntake():&#160;RobotConfig.hpp']]],
+  ['rightintakeport_144',['rightIntakePort',['../_robot_config_8hpp.html#a29f2b146debc969b68026d12a7528b5b',1,'RobotConfig.cpp']]],
+  ['rightintaketempbar_145',['rightIntakeTempBar',['../_initialize_8hpp.html#ac1c336f76b4fac26049a6bf85302c7eb',1,'Initialize.cpp']]],
+  ['rightintaketemplabel_146',['rightIntakeTempLabel',['../_initialize_8hpp.html#ae1b96e80246237eaf6f48f8fdcd4a8e2',1,'Initialize.cpp']]],
+  ['robotconfig_2ehpp_147',['RobotConfig.hpp',['../_robot_config_8hpp.html',1,'']]],
+  ['rollers_148',['Rollers',['../class_rollers.html',1,'Rollers'],['../class_rollers.html#a9f4ddfc4471a476ef0e90d3d457fda88',1,'Rollers::Rollers()']]],
+  ['rollers_2ehpp_149',['Rollers.hpp',['../_rollers_8hpp.html',1,'']]],
+  ['rumble_150',['rumble',['../class_custom_controller.html#a92d78ba7c34b611dd9d39f82335f2689',1,'CustomController']]]
 ];

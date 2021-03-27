@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['get_5fbattery_5fcapacity_76',['get_battery_capacity',['../class_custom_controller.html#a8225639c07f80494db26ba6414d9fd77',1,'CustomController']]],
-  ['get_5fbattery_5flevel_77',['get_battery_level',['../class_custom_controller.html#a251b70f58bfb68daeb9b6a7946bb62c5',1,'CustomController']]],
-  ['getleftx_78',['getLeftX',['../class_custom_controller.html#a62f2de6fc662ef02f39cd0cb96787bcc',1,'CustomController']]],
-  ['getlefty_79',['getLeftY',['../class_custom_controller.html#a0743c996b8b1ca706329e88b96fc7b43',1,'CustomController']]],
-  ['getrightx_80',['getRightX',['../class_custom_controller.html#a460dd11d4a8e72e6f4e0e5aa25d676d0',1,'CustomController']]],
-  ['getrighty_81',['getRightY',['../class_custom_controller.html#a32d9167e2b38ab10e8ca39cc11bd6f0b',1,'CustomController']]],
-  ['globals_2ehpp_82',['Globals.hpp',['../_globals_8hpp.html',1,'']]],
-  ['green_5fgearset_83',['GREEN_GEARSET',['../_constants_8hpp.html#a0ac091d0c49f5286e6cc75b461e474fc',1,'Constants.hpp']]],
-  ['greeninnerstyle_84',['greenInnerStyle',['../_initialize_8hpp.html#a5969411258d5992d891ab4b5faa66f49',1,'Initialize.cpp']]]
+  ['flipout_68',['flipOut',['../class_rollers.html#a717490ef4f3a775dd784774801efcdd3',1,'Rollers']]],
+  ['frontleft_69',['frontLeft',['../class_drive.html#a829c1839d176f797b96f9c8a864523a6',1,'Drive']]],
+  ['frontleftdrive_70',['frontLeftDrive',['../_robot_config_8hpp.html#a3349966796781ef3ce6598ed309a75a3',1,'RobotConfig.hpp']]],
+  ['frontleftdriveport_71',['frontLeftDrivePort',['../_robot_config_8hpp.html#a44dbf8633b58111560161dcb83cec854',1,'RobotConfig.cpp']]],
+  ['frontleftdrivetempbar_72',['frontLeftDriveTempBar',['../_initialize_8hpp.html#ad0bb7b097d446ecfa18a5eda0c02d642',1,'Initialize.cpp']]],
+  ['frontleftdrivetemplabel_73',['frontLeftDriveTempLabel',['../_initialize_8hpp.html#a304c2b864b895fd358d708449da7fb39',1,'Initialize.cpp']]],
+  ['frontright_74',['frontRight',['../class_drive.html#a1c03de7b8c48ae84cf09423d6cd30d96',1,'Drive']]],
+  ['frontrightdrive_75',['frontRightDrive',['../_robot_config_8hpp.html#a41c1baaafe9683abb8ff8cf7d5534d68',1,'RobotConfig.hpp']]],
+  ['frontrightdriveport_76',['frontRightDrivePort',['../_robot_config_8hpp.html#a5f8cab37df5821a1e9fa1f8e7bb52225',1,'RobotConfig.cpp']]],
+  ['frontrightdrivetempbar_77',['frontRightDriveTempBar',['../_initialize_8hpp.html#a85a698429ba59bb0ac58ef435bb1dc75',1,'Initialize.cpp']]],
+  ['frontrightdrivetemplabel_78',['frontRightDriveTempLabel',['../_initialize_8hpp.html#af10ae75d762eebf95e9c47572d8c183e',1,'Initialize.cpp']]]
 ];
