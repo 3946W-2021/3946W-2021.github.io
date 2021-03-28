@@ -110,6 +110,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad80ad7ee4d7ab197d6c70966c9c14fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a717490ef4f3a775dd784774801efcdd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rollers.html#a717490ef4f3a775dd784774801efcdd3">flipOut</a> ()</td></tr>
 <tr class="separator:a717490ef4f3a775dd784774801efcdd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71e3cb9f7473f511c05289f89ea310a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rollers.html#af71e3cb9f7473f511c05289f89ea310a">primeBalls</a> (int vel)</td></tr>
+<tr class="separator:af71e3cb9f7473f511c05289f89ea310a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d98853750366b7f312780fbf5d42097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rollers.html#a0d98853750366b7f312780fbf5d42097">primeBalls</a> (int vel, int time, bool blocking)</td></tr>
+<tr class="separator:a0d98853750366b7f312780fbf5d42097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -521,6 +525,76 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Runs both of the manipulators to poop balls out the back of the robot</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vel</td><td>The speed in rotations per minute to run the rollers at </td></tr>
+    <tr><td class="paramname">time</td><td>The time to run the rollers for int milliseconds </td></tr>
+    <tr><td class="paramname">blocking</td><td>Whether or not this function should block all other operations. If true, everything will stop until the intakes are done. If false, other operations will run while the rollers are running. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af71e3cb9f7473f511c05289f89ea310a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71e3cb9f7473f511c05289f89ea310a">&#9670;&nbsp;</a></span>primeBalls() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rollers::primeBalls </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>vel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runs the intake rollers and lower manipulator to move balls into a shooting position</p>
+<dl class="section note"><dt>Note</dt><dd>Running this function for too long or too quickly will result in the balls being pooped out the back</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vel</td><td>The speed in rotations per minute to run the rollers at </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0d98853750366b7f312780fbf5d42097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d98853750366b7f312780fbf5d42097">&#9670;&nbsp;</a></span>primeBalls() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rollers::primeBalls </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>vel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>blocking</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runs the intake rollers and lower manipulator to move balls into a shooting position</p>
+<dl class="section note"><dt>Note</dt><dd>Running this function for too long or too quickly will result in the balls being pooped out the back</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vel</td><td>The speed in rotations per minute to run the rollers at </td></tr>
