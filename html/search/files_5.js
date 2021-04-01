@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['robotconfig_2ehpp_191',['RobotConfig.hpp',['../_robot_config_8hpp.html',1,'']]],
-  ['rollers_2ehpp_192',['Rollers.hpp',['../_rollers_8hpp.html',1,'']]]
+  ['lvglfuncs_2ehpp_204',['LvglFuncs.hpp',['../_lvgl_funcs_8hpp.html',1,'']]],
+  ['lvglops_2ehpp_205',['LvglOps.hpp',['../_lvgl_ops_8hpp.html',1,'']]]
 ];

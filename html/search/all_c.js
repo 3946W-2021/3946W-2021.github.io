@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['red_5fgearset_141',['RED_GEARSET',['../_constants_8hpp.html#ae1b463f68da37b738fd71c8fd3bf3121',1,'Constants.hpp']]],
-  ['redinnerstyle_142',['redInnerStyle',['../_initialize_8hpp.html#a6ba183b8caf4a34befeca9dfb986d700',1,'Initialize.cpp']]],
-  ['right_143',['RIGHT',['../_constants_8hpp.html#a088fe0153a918af361dc8f4e775d020e',1,'Constants.hpp']]],
-  ['rightencoder_144',['rightEncoder',['../class_drive.html#a96b025c213e1958d81d9cefae6700661',1,'Drive::rightEncoder()'],['../_robot_config_8hpp.html#a05632888314d1132f3885775ed6457d7',1,'rightEncoder():&#160;RobotConfig.hpp']]],
-  ['rightintake_145',['rightIntake',['../class_rollers.html#aa8d46211234ab767783b58b918c41bd1',1,'Rollers::rightIntake()'],['../_robot_config_8hpp.html#a7e11e782f5e922180b0e03cc8e7b4f51',1,'rightIntake():&#160;RobotConfig.hpp']]],
-  ['rightintakeport_146',['rightIntakePort',['../_robot_config_8hpp.html#a29f2b146debc969b68026d12a7528b5b',1,'RobotConfig.cpp']]],
-  ['rightintaketempbar_147',['rightIntakeTempBar',['../_initialize_8hpp.html#ac1c336f76b4fac26049a6bf85302c7eb',1,'Initialize.cpp']]],
-  ['rightintaketemplabel_148',['rightIntakeTempLabel',['../_initialize_8hpp.html#ae1b96e80246237eaf6f48f8fdcd4a8e2',1,'Initialize.cpp']]],
-  ['robotconfig_2ehpp_149',['RobotConfig.hpp',['../_robot_config_8hpp.html',1,'']]],
-  ['rollers_150',['Rollers',['../class_rollers.html',1,'Rollers'],['../class_rollers.html#a9f4ddfc4471a476ef0e90d3d457fda88',1,'Rollers::Rollers()']]],
-  ['rollers_2ehpp_151',['Rollers.hpp',['../_rollers_8hpp.html',1,'']]],
-  ['rumble_152',['rumble',['../class_custom_controller.html#a92d78ba7c34b611dd9d39f82335f2689',1,'CustomController']]]
+  ['red_5fgearset_150',['RED_GEARSET',['../_constants_8hpp.html#ae1b463f68da37b738fd71c8fd3bf3121',1,'Constants.hpp']]],
+  ['redinnerstyle_151',['redInnerStyle',['../_initialize_8hpp.html#a6ba183b8caf4a34befeca9dfb986d700',1,'Initialize.cpp']]],
+  ['right_152',['RIGHT',['../_constants_8hpp.html#a088fe0153a918af361dc8f4e775d020e',1,'Constants.hpp']]],
+  ['right_5fauton1_153',['right_auton1',['../autonomous_8hpp.html#a697cb786940fe6dd0b9c0f32914d3589',1,'autonomous.cpp']]],
+  ['right_5fauton2_154',['right_auton2',['../autonomous_8hpp.html#af0965d30dd4c61fa4713e3589c2005d1',1,'autonomous.cpp']]],
+  ['right_5fauton3_155',['right_auton3',['../autonomous_8hpp.html#a5821f8cc8ec4129df6d1eb75c11a02df',1,'autonomous.cpp']]],
+  ['right_5fauton4_156',['right_auton4',['../autonomous_8hpp.html#a3be9d1fa6865b583e2b6af44a6c43776',1,'autonomous.cpp']]],
+  ['rightencoder_157',['rightEncoder',['../class_drive.html#a96b025c213e1958d81d9cefae6700661',1,'Drive::rightEncoder()'],['../_robot_config_8hpp.html#a05632888314d1132f3885775ed6457d7',1,'rightEncoder():&#160;RobotConfig.hpp']]],
+  ['rightintake_158',['rightIntake',['../class_rollers.html#aa8d46211234ab767783b58b918c41bd1',1,'Rollers::rightIntake()'],['../_robot_config_8hpp.html#a7e11e782f5e922180b0e03cc8e7b4f51',1,'rightIntake():&#160;RobotConfig.hpp']]],
+  ['rightintakeport_159',['rightIntakePort',['../_robot_config_8hpp.html#a29f2b146debc969b68026d12a7528b5b',1,'RobotConfig.cpp']]],
+  ['rightintaketempbar_160',['rightIntakeTempBar',['../_initialize_8hpp.html#ac1c336f76b4fac26049a6bf85302c7eb',1,'Initialize.cpp']]],
+  ['rightintaketemplabel_161',['rightIntakeTempLabel',['../_initialize_8hpp.html#ae1b96e80246237eaf6f48f8fdcd4a8e2',1,'Initialize.cpp']]],
+  ['robotconfig_2ehpp_162',['RobotConfig.hpp',['../_robot_config_8hpp.html',1,'']]],
+  ['rollers_163',['Rollers',['../class_rollers.html',1,'Rollers'],['../class_rollers.html#a9f4ddfc4471a476ef0e90d3d457fda88',1,'Rollers::Rollers()']]],
+  ['rollers_164',['rollers',['../_robot_config_8hpp.html#a417df8c4a1bc77eea6e473fbaa7ec811',1,'RobotConfig.hpp']]],
+  ['rollers_2ehpp_165',['Rollers.hpp',['../_rollers_8hpp.html',1,'']]],
+  ['rumble_166',['rumble',['../class_custom_controller.html#a92d78ba7c34b611dd9d39f82335f2689',1,'CustomController']]]
 ];

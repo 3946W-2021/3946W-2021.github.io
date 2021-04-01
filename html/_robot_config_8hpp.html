@@ -74,7 +74,10 @@ $(function() {
 
 <p>Configuration for robot.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;<a class="el" href="_globals_8hpp_source.html">Globals.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;main.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="_custom_controller_8hpp_source.html">CustomController.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_rollers_8hpp_source.html">Rollers.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_drive_8hpp_source.html">Drive.hpp</a>&quot;</code><br />
 </div>
 <p><a href="_robot_config_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -130,6 +133,10 @@ Variables</h2></td></tr>
 <tr class="separator:a36423df8d351b53c45c56c4a14aa911c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a834d2e3993c084096964fb33c1eacded"><td class="memItemLeft" align="right" valign="top">Motor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_robot_config_8hpp.html#a834d2e3993c084096964fb33c1eacded">upperManipulator</a></td></tr>
 <tr class="separator:a834d2e3993c084096964fb33c1eacded"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923e03f3b39ce706948141f37b8c60b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_drive.html">Drive</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_robot_config_8hpp.html#a923e03f3b39ce706948141f37b8c60b9">drive</a></td></tr>
+<tr class="separator:a923e03f3b39ce706948141f37b8c60b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a417df8c4a1bc77eea6e473fbaa7ec811"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_rollers.html">Rollers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_robot_config_8hpp.html#a417df8c4a1bc77eea6e473fbaa7ec811">rollers</a></td></tr>
+<tr class="separator:a417df8c4a1bc77eea6e473fbaa7ec811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Configuration for robot. </p>
@@ -223,6 +230,29 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The port the back right drive motor is plugged into </p>
+
+</div>
+</div>
+<a id="a923e03f3b39ce706948141f37b8c60b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923e03f3b39ce706948141f37b8c60b9">&#9670;&nbsp;</a></span>drive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_drive.html">Drive</a> drive</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The robot drive including the drive motors and the tracking encoders </p>
 
 </div>
 </div>
@@ -660,6 +690,29 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>The port the right intake motor is plugged into </p>
+
+</div>
+</div>
+<a id="a417df8c4a1bc77eea6e473fbaa7ec811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a417df8c4a1bc77eea6e473fbaa7ec811">&#9670;&nbsp;</a></span>rollers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_rollers.html">Rollers</a> rollers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The robot rollers including the intake rollers and the manipulator rollers </p>
 
 </div>
 </div>

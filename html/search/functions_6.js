@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['olddrive_226',['oldDrive',['../class_drive.html#a50f5cd909385b1105371056a1735ebe9',1,'Drive::oldDrive(double dist, double speed)'],['../class_drive.html#a345f6f1368acc0235db16df26aea5c1b',1,'Drive::oldDrive(double dist, double speed, int maxWait)']]],
-  ['oldstrafe_227',['oldStrafe',['../class_drive.html#acc884da820099e526a625e74a037e7ef',1,'Drive::oldStrafe(double dist, double speed, int direction)'],['../class_drive.html#aebb882a91135e17b8b33cf9af6aef9af',1,'Drive::oldStrafe(double dist, double speed, int direction, int maxWait)']]],
-  ['oldturn_228',['oldTurn',['../class_drive.html#af36215890798d9767b0ce442168ed893',1,'Drive::oldTurn(double angle, double speed, int direction)'],['../class_drive.html#a33cd8dc0f542267657866fdcbc03fbbe',1,'Drive::oldTurn(double angle, double speed, int direction, int maxWait)']]]
+  ['left_5fauton1_241',['left_auton1',['../autonomous_8hpp.html#a1c8239c3bb7dc00d795bb7f86c184734',1,'autonomous.cpp']]],
+  ['left_5fauton2_242',['left_auton2',['../autonomous_8hpp.html#a6fa426c9d838d28d436f9a9edc64937b',1,'autonomous.cpp']]],
+  ['left_5fauton3_243',['left_auton3',['../autonomous_8hpp.html#a1bb5fe4c3fe47fcfe6705e3b10bc6144',1,'autonomous.cpp']]],
+  ['left_5fauton4_244',['left_auton4',['../autonomous_8hpp.html#a4d21e32367faa025ff2cec1134ea0de7',1,'autonomous.cpp']]]
 ];

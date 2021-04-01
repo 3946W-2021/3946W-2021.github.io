@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['initialize_2ehpp_188',['Initialize.hpp',['../_initialize_8hpp.html',1,'']]]
+  ['globals_2ehpp_202',['Globals.hpp',['../_globals_8hpp.html',1,'']]]
 ];

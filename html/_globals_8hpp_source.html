@@ -74,33 +74,19 @@ $(function() {
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define PROS_OKAPI_GLOBALS_HPP</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;main.h&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_constants_8hpp.html">Constants.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_custom_controller_8hpp.html">CustomController.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_drive_8hpp.html">Drive.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_initialize_8hpp.html">Initialize.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_lvgl_funcs_8hpp.html">LvglFuncs.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_lvgl_ops_8hpp.html">LvglOps.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_robot_config_8hpp.html">RobotConfig.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_globals_8hpp.html#a6fde738629aa7b35368e1837d9cf9471">autonColor</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_globals_8hpp.html#a1e33d9925f70f6d356546b7d6d8fb830">autonNum</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf">print</a>(<span class="keywordtype">string</span> s);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac">printSpecial</a>(<span class="keywordtype">string</span> s, <span class="keywordtype">string</span> color);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PROS_OKAPI_GLOBALS_HPP</span></div>
-<div class="ttc" id="a_constants_8hpp_html"><div class="ttname"><a href="_constants_8hpp.html">Constants.hpp</a></div><div class="ttdoc">A list of constants used as enums or for ease of typing.</div></div>
-<div class="ttc" id="a_custom_controller_8hpp_html"><div class="ttname"><a href="_custom_controller_8hpp.html">CustomController.hpp</a></div><div class="ttdoc">CustomController class with added controller functionality.</div></div>
-<div class="ttc" id="a_drive_8hpp_html"><div class="ttname"><a href="_drive_8hpp.html">Drive.hpp</a></div><div class="ttdoc">Drive class for all drive operations.</div></div>
-<div class="ttc" id="a_globals_8hpp_html_a15fd204ba2aa61e733858dea3bd6e5ac"><div class="ttname"><a href="_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac">printSpecial</a></div><div class="ttdeci">void printSpecial(string s, string color)</div><div class="ttdef"><b>Definition:</b> Globals.cpp:12</div></div>
-<div class="ttc" id="a_globals_8hpp_html_a1e33d9925f70f6d356546b7d6d8fb830"><div class="ttname"><a href="_globals_8hpp.html#a1e33d9925f70f6d356546b7d6d8fb830">autonNum</a></div><div class="ttdeci">int autonNum</div><div class="ttdef"><b>Definition:</b> Globals.cpp:4</div></div>
-<div class="ttc" id="a_globals_8hpp_html_a6fde738629aa7b35368e1837d9cf9471"><div class="ttname"><a href="_globals_8hpp.html#a6fde738629aa7b35368e1837d9cf9471">autonColor</a></div><div class="ttdeci">int autonColor</div><div class="ttdef"><b>Definition:</b> Globals.cpp:3</div></div>
-<div class="ttc" id="a_globals_8hpp_html_aaa8e0a3e0668dab70cf2bb98cefaddbf"><div class="ttname"><a href="_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf">print</a></div><div class="ttdeci">void print(string s)</div><div class="ttdef"><b>Definition:</b> Globals.cpp:6</div></div>
-<div class="ttc" id="a_initialize_8hpp_html"><div class="ttname"><a href="_initialize_8hpp.html">Initialize.hpp</a></div><div class="ttdoc">Creates the UI on the brain screen.</div></div>
-<div class="ttc" id="a_lvgl_funcs_8hpp_html"><div class="ttname"><a href="_lvgl_funcs_8hpp.html">LvglFuncs.hpp</a></div><div class="ttdoc">Functions used to create LVGL UI components.</div></div>
-<div class="ttc" id="a_lvgl_ops_8hpp_html"><div class="ttname"><a href="_lvgl_ops_8hpp.html">LvglOps.hpp</a></div><div class="ttdoc">Functions to be called by the UI.</div></div>
-<div class="ttc" id="a_robot_config_8hpp_html"><div class="ttname"><a href="_robot_config_8hpp.html">RobotConfig.hpp</a></div><div class="ttdoc">Configuration for robot.</div></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_globals_8hpp.html#a6fde738629aa7b35368e1837d9cf9471">autonColor</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">int</span> <a class="code" href="_globals_8hpp.html#a1e33d9925f70f6d356546b7d6d8fb830">autonNum</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf">print</a>(<span class="keywordtype">string</span> s);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> <a class="code" href="_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac">printSpecial</a>(<span class="keywordtype">string</span> s, <span class="keywordtype">string</span> color);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">//PROS_OKAPI_GLOBALS_HPP</span></div>
+<div class="ttc" id="a_globals_8hpp_html_a15fd204ba2aa61e733858dea3bd6e5ac"><div class="ttname"><a href="_globals_8hpp.html#a15fd204ba2aa61e733858dea3bd6e5ac">printSpecial</a></div><div class="ttdeci">void printSpecial(string s, string color)</div><div class="ttdef"><b>Definition:</b> Globals.cpp:17</div></div>
+<div class="ttc" id="a_globals_8hpp_html_a1e33d9925f70f6d356546b7d6d8fb830"><div class="ttname"><a href="_globals_8hpp.html#a1e33d9925f70f6d356546b7d6d8fb830">autonNum</a></div><div class="ttdeci">int autonNum</div><div class="ttdef"><b>Definition:</b> Globals.cpp:9</div></div>
+<div class="ttc" id="a_globals_8hpp_html_a6fde738629aa7b35368e1837d9cf9471"><div class="ttname"><a href="_globals_8hpp.html#a6fde738629aa7b35368e1837d9cf9471">autonColor</a></div><div class="ttdeci">int autonColor</div><div class="ttdef"><b>Definition:</b> Globals.cpp:8</div></div>
+<div class="ttc" id="a_globals_8hpp_html_aaa8e0a3e0668dab70cf2bb98cefaddbf"><div class="ttname"><a href="_globals_8hpp.html#aaa8e0a3e0668dab70cf2bb98cefaddbf">print</a></div><div class="ttdeci">void print(string s)</div><div class="ttdef"><b>Definition:</b> Globals.cpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -97,6 +97,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a96a08156b119b31c696fc939d24e1d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae024e3b67b812c1c5b25ca4633669605"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#ae024e3b67b812c1c5b25ca4633669605">driverControl</a> (double leftX, double leftY, double rightX)</td></tr>
 <tr class="separator:ae024e3b67b812c1c5b25ca4633669605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab873d5a65fe067a774d2a086ca67f84d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#ab873d5a65fe067a774d2a086ca67f84d">driverControl</a> (<a class="el" href="class_custom_controller.html">CustomController</a> c)</td></tr>
+<tr class="separator:ab873d5a65fe067a774d2a086ca67f84d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -135,8 +137,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a270d2e64d788002820c91d3efc7bc281"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec90361057e6d57fc82886df16d99ad"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#aeec90361057e6d57fc82886df16d99ad">slaveKd</a></td></tr>
 <tr class="separator:aeec90361057e6d57fc82886df16d99ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92daa00e4d42e0dc735ec2603dad34df"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a92daa00e4d42e0dc735ec2603dad34df">turnK</a></td></tr>
-<tr class="separator:a92daa00e4d42e0dc735ec2603dad34df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f003533dcde0a32ac2c25da8573283"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#aa7f003533dcde0a32ac2c25da8573283">turnKp</a></td></tr>
+<tr class="separator:aa7f003533dcde0a32ac2c25da8573283"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e2afed6673d9af86dd8df34a336b3d6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a1e2afed6673d9af86dd8df34a336b3d6">turnKi</a></td></tr>
 <tr class="separator:a1e2afed6673d9af86dd8df34a336b3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a86bd15ede1e9c48bd5b6a232b98d67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_drive.html#a4a86bd15ede1e9c48bd5b6a232b98d67">turnKd</a></td></tr>
@@ -344,8 +346,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ab873d5a65fe067a774d2a086ca67f84d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab873d5a65fe067a774d2a086ca67f84d">&#9670;&nbsp;</a></span>driverControl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Drive::driverControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_custom_controller.html">CustomController</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the motor velocities of the drive based on the joystick values from the controller for the driver control period</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>The <a class="el" href="class_custom_controller.html">CustomController</a> for getting the joystick values </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ae024e3b67b812c1c5b25ca4633669605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae024e3b67b812c1c5b25ca4633669605">&#9670;&nbsp;</a></span>driverControl()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae024e3b67b812c1c5b25ca4633669605">&#9670;&nbsp;</a></span>driverControl() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1202,29 +1229,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a92daa00e4d42e0dc735ec2603dad34df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92daa00e4d42e0dc735ec2603dad34df">&#9670;&nbsp;</a></span>turnK</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double Drive::turnK</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Proportional constant for turning </p>
-
-</div>
-</div>
 <a id="a4a86bd15ede1e9c48bd5b6a232b98d67"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a86bd15ede1e9c48bd5b6a232b98d67">&#9670;&nbsp;</a></span>turnKd</h2>
 
@@ -1268,6 +1272,29 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Integral constant for turning </p>
+
+</div>
+</div>
+<a id="aa7f003533dcde0a32ac2c25da8573283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f003533dcde0a32ac2c25da8573283">&#9670;&nbsp;</a></span>turnKp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Drive::turnKp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Proportional constant for turning </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['waitformotors_249',['waitForMotors',['../class_drive.html#ab7881558255b229add63b7d0f1eec60a',1,'Drive::waitForMotors()'],['../class_drive.html#a75c1b8852e8a9d5bfb6ead2ad6635768',1,'Drive::waitForMotors(int maxWait)']]]
+  ['turn_273',['turn',['../class_drive.html#ae8e6754c46daf28e63383d7a08173328',1,'Drive::turn(double angle, double maxVoltage, int direction)'],['../class_drive.html#a96a08156b119b31c696fc939d24e1d3a',1,'Drive::turn(double angle, double maxVoltage, int direction, int maxWait)']]]
 ];

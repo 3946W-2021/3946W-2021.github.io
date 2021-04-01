@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af71e3cb9f7473f511c05289f89ea310a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d98853750366b7f312780fbf5d42097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rollers.html#a0d98853750366b7f312780fbf5d42097">primeBalls</a> (int vel, int time, bool blocking)</td></tr>
 <tr class="separator:a0d98853750366b7f312780fbf5d42097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b12cd469d19a8711ab343744908bf5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_rollers.html#a0b12cd469d19a8711ab343744908bf5a">driverControl</a> (<a class="el" href="class_custom_controller.html">CustomController</a> master, <a class="el" href="class_custom_controller.html">CustomController</a> partner)</td></tr>
+<tr class="separator:a0b12cd469d19a8711ab343744908bf5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -308,6 +310,53 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">vel</td><td>The speed in rotations per minute to run the rollers at </td></tr>
     <tr><td class="paramname">time</td><td>The time to run the rollers for int milliseconds </td></tr>
     <tr><td class="paramname">blocking</td><td>Whether or not this function should block all other operations. If true, everything will stop until the intakes are done. If false, other operations will run while the rollers are running. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0b12cd469d19a8711ab343744908bf5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b12cd469d19a8711ab343744908bf5a">&#9670;&nbsp;</a></span>driverControl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Rollers::driverControl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_custom_controller.html">CustomController</a>&#160;</td>
+          <td class="paramname"><em>master</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_custom_controller.html">CustomController</a>&#160;</td>
+          <td class="paramname"><em>partner</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Runs the rollers based on the two controllers passed in</p>
+<p>Runs one of the following operations based on the controller buttons/joysticks listed in order of precedence:</p><ul>
+<li>Partner A - runs the upper manipulator backwards for hood flipout</li>
+<li>Master R1 - runs all of the rollers to cycle</li>
+<li>Master L1 - runs both of the manipulators to shoot balls</li>
+<li>Partner L1 - runs all of the rollers to cycle all of the balls backwards</li>
+<li>Partner L2 - runs both of the manipulators to move balls towards the rollers</li>
+<li>Partner R1 - runs both of the intakes to intake balls</li>
+<li>Partner R2 - runs both of the intakes to extake balls</li>
+<li>Partner Left Joystick Y - runs both of the manipulators to poop balls out the back</li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>intake control with the right partner triggers is not mutually exclusive with pooping control with the left joystick</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">master</td><td>Master controller </td></tr>
+    <tr><td class="paramname">partner</td><td>Partner controller </td></tr>
   </table>
   </dd>
 </dl>
